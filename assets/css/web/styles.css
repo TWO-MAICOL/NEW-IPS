@@ -413,7 +413,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../../img/web/hero-bg.jpg");
+  background: url("../../img/web/12.jpg");
   position: relative;
   padding: 120px 0 0 0;
   height: 100vh;
@@ -421,7 +421,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(127, 21, 189, 0.91);
+  /* background: rgba(127, 21, 189, 0.91); */
+  background: rgba(47,201,757,.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -751,7 +752,7 @@ section {
 }
 
 .about .video-box {
-  background: url('../../img/web/about.png') center center no-repeat;
+  background: url('../../img/web/Cardiología.png ') center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }

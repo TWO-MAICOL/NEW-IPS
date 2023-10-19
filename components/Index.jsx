@@ -13,7 +13,7 @@ export const Index = ()=> {
     return (
     <>
     <head>    
-        <title>INTIMO</title>
+        <title>Nueva IPS</title>
         <link rel="stylesheet" href="../assets/css/web/bootstrap.css" />
         <link rel="stylesheet" href="../assets/css/web/styles.css" />
     </head>
@@ -31,10 +31,10 @@ export const Index = ()=> {
         <nav id="navbar" className="navbar">
           <ul>
             <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a className="nav-link scrollto" href="#about">Nosotros</a></li>
-            <li><a className="nav-link scrollto" href="#features">Trajes</a></li>
-            <li><a className="nav-link scrollto" href="#gallery">Mas populares </a></li>
-            <li><a className="nav-link scrollto" href="#team">lubricantes</a></li>
+            <li><a className="nav-link scrollto" href="#about">Nuestros Servicios</a></li>
+            <li><a className="nav-link scrollto" href="#features">Punto de atencion </a></li>
+            <li><a className="nav-link scrollto" href="#gallery">Citas</a></li>
+            <li><a className="nav-link scrollto" href="#team"> Afiliaciones</a></li>
             <li><a className="nav-link scrollto" href="/login">Admin</a></li>
             {/* <li className="dropdown"><a href="#"><span>Drop Down</span> <i className="bi bi-chevron-down"></i></a>
               <ul>
@@ -66,19 +66,19 @@ export const Index = ()=> {
 
     <section id="hero">
       
-    <div className="container">
+    <div className="container" style={{marginTop:' 115px'}}>
       <div className="row justify-content-between">
         <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
           <div data-aos="zoom-out">
-            <h1>Bienvenido a nuestra <span>Sex Shop</span></h1>
-            <h2>Tenemos gran variedad de productos y de muy buena calidad</h2>
+            <h1>Bienvenido a nuestra <span>IPS</span></h1>
+            <h2>El mejor centro de atencion que puedes ver </h2>
             <div className="text-center text-lg-start">
-              <a href="#about" className="btn-get-started scrollto"> A poco precio, miralos!</a>
+              <a href="#about" className="btn-get-started scrollto"> Miranos!</a>
             </div>
           </div>
         </div>
         <div className=" col-lg-4 order-1 order-lg-2 hero-img aos-init aos-animate" data-aos="zoom-out" data-aos-delay="300">
-          <img src="../assets/img/web/hero-img.png" className="img-fluid animated" alt=""/>          
+          <img src="../assets/img/web/Logo-IPS.png" className="img-fluid animated" alt=""/>          
         </div>
    
       </div>
@@ -105,11 +105,11 @@ export const Index = ()=> {
 
         <div className="row">
           <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch" data-aos="fade-right">
-            <a href="https://www.youtube.com/watch?v=StpBR2W8G5A" className="glightbox play-btn mb-4"></a>
+            <a href=" https://www.medigreen.com.ec/wp-content/uploads/2018/11/Cardiolog%C3%ADa.png" className="glightbox play-btn mb-4"></a>
           </div>
 
           <div className="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
+            <h3>Nuestros servicios</h3>
             <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
 
             <div className="icon-box" data-aos="zoom-in" data-aos-delay="100">
